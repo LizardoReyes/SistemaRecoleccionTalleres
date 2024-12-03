@@ -20,5 +20,10 @@ CREATE TABLE Pagos (
 );
 GO
 
+CREATE TABLE Taller (
+	IdTaller INT PRIMARY KEY IDENTITY(1,1),
+	NombreTaller VARCHAR(50) NOT NULL
+);
+
 SELECT * FROM Estudiante
 SELECT * FROM Pagos
